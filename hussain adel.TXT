@@ -1,0 +1,19 @@
+public class HelloWorld{//open class
+
+     public static void main(String []args){// open main
+     simba("hussain" ,16);
+     
+     
+     
+     }// close main
+       public static void simba(String name ,int age){
+           if(age<18) {
+               System.out.println("sorry " +name+" you cannot get a license");
+           }else if (age>=18) {
+               System.out.println("congrats " + name +" you can get a license");
+           }
+       }  
+     
+     
+     
+}// close class
